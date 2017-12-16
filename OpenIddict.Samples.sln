@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeFlow", "CodeFlow", "{F47D1283-0EE9-4728-8026-58405C29B786}"
 EndProject
@@ -36,6 +36,12 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthorizationServer", "samples\RefreshFlow\AuthorizationServer\AuthorizationServer.csproj", "{EB20BBB7-591C-44AB-8FDE-3272CAC2BF56}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AngularApp", "samples\RefreshFlow\AngularApp\AngularApp.csproj", "{9C934C2E-BC44-4644-A77B-EDC5DCBA4624}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_SolutionFolder", "_SolutionFolder", "{E73C7FDB-311D-4A49-A0EF-198CC1C9A839}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -108,5 +114,8 @@ Global
 		{81382AEF-4096-4653-85D9-9A55FC67885C} = {677D0C2C-B66E-487E-B915-CFE1C63CB1CC}
 		{EB20BBB7-591C-44AB-8FDE-3272CAC2BF56} = {E8108CC6-A798-423C-99C6-A37BEBCEE7F0}
 		{9C934C2E-BC44-4644-A77B-EDC5DCBA4624} = {E8108CC6-A798-423C-99C6-A37BEBCEE7F0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B29652EC-4BF5-4EC7-A88E-92DBA60BF892}
 	EndGlobalSection
 EndGlobal

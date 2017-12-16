@@ -1,4 +1,4 @@
-# OpenIddict.Samples
+# [OpenIddict.Samples](https://github.com/YatinShah/openiddict-samples)#
 
 ASP.NET Core samples demonstrating **how to use [OpenIddict](https://github.com/openiddict/openiddict-core) with the different OAuth2/OpenID Connect flows**.
 
